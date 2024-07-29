@@ -1,0 +1,5 @@
+#program to find string length
+n=str(input("enter the string:"))
+for i in n:
+	print(i)
+print("string lenght:",len(n))

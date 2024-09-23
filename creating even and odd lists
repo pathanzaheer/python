@@ -1,0 +1,13 @@
+list=[]
+n=int(input("enter the number:"))
+for i in range(n):
+  list.append(int(input("enter the number:")))
+even=[]
+odd=[]
+for j in list:
+  if(j%2==0):
+    even.append(j)
+  else:
+    odd.append(j)
+print("Even list:",even)
+print("Odd list:",odd)

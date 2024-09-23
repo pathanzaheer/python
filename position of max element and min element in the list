@@ -1,0 +1,6 @@
+n=int(input("Enter the size of the list:"))
+list=[]
+for i in range(n):
+  list.append(int(input("Enter the elements in the list:")))
+print(list.index(max(list)))
+print(list.index(min(list)))

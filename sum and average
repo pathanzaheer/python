@@ -1,0 +1,6 @@
+n=int(input("enter the number:"))
+list=[]
+for i in range(n):
+  list.append(int(input("enter the number:")))
+print('Sum of list',sum(list))
+print("Average of list",sum(list)/len(list))

@@ -1,0 +1,9 @@
+n=int(input("enter the number:"))
+list=[]
+for i in range(n):
+  list.append(int(input("enter the number:")))
+for i in list:
+  list.count(i)
+  if(list.count(i)>1):
+    list.remove(i)
+print(list)

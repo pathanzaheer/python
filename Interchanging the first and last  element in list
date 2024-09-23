@@ -1,0 +1,9 @@
+n=int(input("enter the number:"))
+list=[]
+for i in range(n):
+  list.append(int(input("enter the number:")))
+print("Origanl list:",list)
+temp=list[0]
+list[0]=list[n-1]
+list[n-1]=temp
+print("Interchanged list:",list)

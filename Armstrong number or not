@@ -1,0 +1,11 @@
+n=int(input("Enter the number:"))
+sum,remainder=0,0
+temp=n
+while temp!=0:
+  remainder=temp%10
+  sum+=remainder**len(str(n))
+  temp//=10
+if(sum==n):
+    print("Armstrong number")
+else:
+    print("Not an armstrong number")

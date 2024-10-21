@@ -1,0 +1,9 @@
+def min_max(list):
+	print("maximum number in the list:",max(list))	
+	print("miniimum number in the list:",min(list))			
+n=int(input("Enter the length of the list:"))
+list=[]
+for i in range(n):
+	ele=int(input("Enter the elements:"))
+	list.append(ele)
+min_max(list)

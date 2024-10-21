@@ -1,0 +1,9 @@
+def second_max(list):
+	list.remove(max(list))
+	print("second maximum number in the list:",max(list))
+n=int(input("Enter the length of the list:"))
+list=[]
+for i in range(n):
+	ele=int(input("Enter the elements:"))
+	list.append(ele)
+second_max(list)

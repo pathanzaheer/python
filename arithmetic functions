@@ -1,0 +1,14 @@
+def addtion(a,b):
+  return a+b
+def subtraction(a,b):
+  return a-b
+def multiplication(a,b):
+  return a*b
+def division(a,b):
+  return a/b
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+print("the addition of two numbers :",addtion(x,y))
+print("the subtraction of two numbers :",subtraction(x,y))
+print("the multiplication of two numbers :",multiplication(x,y))
+print("the division of two numbers :",division(x,y))
